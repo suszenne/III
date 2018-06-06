@@ -1,1 +1,213 @@
+body {
+  background-color: white;
+}
 
+h1 {
+font-size: 60px;
+position: absolute;
+top: 38vh;
+left: 50%;
+}
+
+
+#container {
+  position: absolute;
+top: 56vh;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+p {
+  font-size: 28px;
+  border: 0px solid black;
+  margin: 1px;
+  padding: 40px;
+  display: inline;
+}
+
+#quadratino {
+
+  background-color: black;
+  height: 1.3vh;
+width: 1.3vh;
+position: absolute;
+display: inline;
+animation: rotola 2.5s linear;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+.secondo {
+  left: 50%;
+}
+
+.terzo {
+  left: 25%;
+}
+
+.quarto {
+  left: 75%;
+}
+
+.quinto {
+  left: 100%;
+}
+
+
+
+ #quadratone {
+   border: 0px solid black;
+   height: 2vh;
+ width: 30vh;
+   position: absolute;
+   top: 40%;
+   animation: spostamento 2s linear;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+ }
+
+#partesotto {
+    position: absolute;
+  top: 106vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+
+.apparizione {
+  transform: translate(-50%, -50%);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 510;
+  	line-height: 26.4px;
+    animation: cambiocolore 3s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.lenta {
+  animation: cambiocolore 4s infinite;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.testadx {
+   height: 500px;
+  position: absolute;
+  bottom: 0vh;
+  right:0vh;
+  animation: su 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+.testasx {
+   height: 500px;
+  position: absolute;
+  top: 0vh;
+  left:10vh;
+  animation: giu 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.lato {
+   height: 400px;
+  position: absolute;
+  top: 50vh;
+  left:130vh;
+  animation: cambiocoloredopo 3s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+
+.basso {
+  height: 250px;
+  position:absolute;
+  top: 12vh;
+  left: 65%;
+  animation: cambiocoloreprima 4s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.alto {
+
+ height: 500px;
+position: absolute;
+top: 0vh;
+left: 0vh;
+animation: cambiocoloredopo 3.5s linear;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+
+@keyframes su {
+  0% {opacity: 0;
+  }
+  85% {opacity: 0;
+  }
+  100% {opacity: 100;
+  }
+}
+
+@keyframes giu {
+  0% {opacity: 0;
+  }
+  85% {opacity: 0;
+  }
+  100% {opacity: 100;
+  }
+}
+
+@keyframes cambiocolore {
+  0% {opacity: 0;
+  }
+  100% {opacity: 100;
+  }
+}
+
+@keyframes cambiocoloreprima {
+  0% {opacity: 0;
+  }
+  30% {opacity: 0;
+  }
+  70% {opacity: 100;
+  }
+  100% {opacity: 0;
+  }
+}
+
+@keyframes cambiocoloredopo {
+  0% {opacity: 0;
+  }
+  35% {opacity: 20;
+  }
+  50% {opacity: 100;
+  }
+  70% {opacity: 100;
+  }
+  100% {opacity: 0;
+  }
+}
+
+@keyframes rotola {
+  0% {transform: rotate(0deg);
+  }
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes spostamento {
+  0% {transform: translate(-50%, -50%);
+  top: 34%;
+left: 100%;}
+100% {transform: translate(-50%, -50%);
+top: 34%;
+left: 50%;}
+}
