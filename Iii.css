@@ -2,6 +2,13 @@ body {
   background-color: white;
 }
 
+<<<<<<< HEAD
+=======
+body {
+  background-color: white;
+}
+
+>>>>>>> 36571ae9fe3cacd3088accf961def66cc7f3ceda
 h1 {
 font-size: 60px;
 position: absolute;
