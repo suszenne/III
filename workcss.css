@@ -60,7 +60,7 @@ p {
 #container {
   position: absolute;
   width: 2000px;
-  top: 20vh;
+  top: 22vh;
   left: 0px;
 margin: 0px;
 animation: scorri 8s linear;
@@ -80,7 +80,7 @@ animation-iteration-count: infinite;
 #cesta {
   position: absolute;
   width: 2000px;
-  top: 60vh;
+  top: 69vh;
   left: 50vh
 margin: 20px;
 animation: scorre 8s linear;
@@ -116,7 +116,7 @@ animation-iteration-count: infinite;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   position: absolute;
   top: 150%;
-  right: 10%;
+  right: 1%;
   padding: 300px;
   display: inline;
   width: 330px;
@@ -125,51 +125,51 @@ animation-iteration-count: infinite;
 
 
 #prima {
-  top: 150%;
+  top: 160%;
 }
 #seconda {
-  top: 250%;
+  top: 290%;
 }
 #terza {
-  top: 360%;
+  top: 400%;
 }
 #quarta {
-  top: 460%;
+  top: 540%;
 }
 #quinta {
-  top: 560%;
+  top: 660%;
 }
 #sesta {
-  top: 670%;
+  top: 790%;
 }
 #settima {
-  top: 770%;
+  top: 910%;
 }
 #ottava {
-  top: 880%;
+  top: 1060%;
 }
 #nona {
-  top: 980%;
+  top: 1090%;
 }
 #decima {
-  top: 1080%;
-  right: -15%;
+  top: 1330%;
+  right: -35%;
 }
 #undicesima {
-  top: 1190%;
-  right: -15%;
+  top: 1430%;
+  right: -35%;
 }
 #dodicesima {
-  top: 1290%;
-  right: -15%;
+  top: 1590%;
+  right: -35%;
 }
 #tredicesima {
-  top: 1390%;
-  right: -15%;
+  top: 1690%;
+  right: -35%;
 }
 #quattordicesima {
-  top: 1490%;
-  right: -15%;
+  top: 1840%;
+  right: -35%;
 }
 
 
