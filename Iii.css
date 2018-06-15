@@ -239,7 +239,7 @@ background-color: #6b8e23;
 #partesotto {
     position: absolute;
     left: 50%;
-  top: 206vh;
+  top: 306vh;
   transform: translate(-50%, -50%);
   }
 
@@ -282,7 +282,7 @@ background-color: #6b8e23;
    height: 800px;
   position: absolute;
   top: 0vh;
-  left:10vh;
+  left:0vh;
   animation: giu 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -290,7 +290,7 @@ background-color: #6b8e23;
 }
 
 .lato {
-   height: 400px;
+   height: 200px;
   position: absolute;
   top: 50vh;
   left:130vh;
