@@ -1,8 +1,6 @@
 a {
   color: black;
 }
-<<<<<<< HEAD
-=======
 
 a:visited {
   color: black;
@@ -17,7 +15,7 @@ a:hover {
 #contenitore {
   position:absolute;
   top: 4%;
-  left:15%;
+  left:10%;
   width: 2000px;
   height: 500px;
   z-index: 1;
@@ -66,7 +64,7 @@ p {
 }
 
 .ffoto {
-  height: 1400px;
+  height: 800px;
   position: absolute;
   right: 0%;
   z-index: -1;
@@ -164,7 +162,7 @@ p {
   font-size: 20px;
   font-weight:bold;
 }
->>>>>>> 1e4502457287f7c13914c0945f58a5473bed09e3
+
 
 a:visited {
   color: black;
@@ -216,7 +214,7 @@ p {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 800;
   font-size: 60px;
-  left: 43.5vh;
+  left: 54vh;
 }
 
 #lu {
@@ -306,7 +304,7 @@ p {
   position: absolute;
   height: 450px;
   top: 20%;
-  left: 59%;
+  left: 64%;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
