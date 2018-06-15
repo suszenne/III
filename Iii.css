@@ -2,20 +2,135 @@ body {
   background-color: white;
 }
 
-<<<<<<< HEAD
-=======
-body {
-  background-color: white;
+#mela {
+  animation: giu 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
->>>>>>> 36571ae9fe3cacd3088accf961def66cc7f3ceda
+.caratt {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 25%;
+  top: 68%;
+}
+
+.grana {
+  background-color: #dc143c;
+}
+
+.camb {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ff8c00;
+  position: absolute;
+  left: 20%;
+  top: 73%;
+  z-index: 2;
+}
+
+.perr {
+  width: 70px;
+  height: 70px;
+}
+
+.piu {
+  width: 30px;
+  height: 30px;
+}
+
+#pera {
+  animation: giu 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#kiwi {
+  background-color: #adff2f;
+}
+
+.chan {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  top: 66%;
+}
+
+.ge {
+  animation: giu 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.ner {
+  animation: kambio 2s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes kambio {
+  from {opacity: 100;}
+  to {opacity: 0;}
+  }
+
+a {
+  colro: black;
+}
+
+a:visited {
+  color: #6495ed;
+}
+
+a:hover {
+  color: #2e8b57;
+  text-decoration:overline;
+}
+
 h1 {
-font-size: 60px;
+font-size: 80px;
 position: absolute;
 top: 38vh;
 left: 50%;
 }
 
+h2 {
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 38vh;
+  left: 50%;
+}
+
+h3 {
+  position:relative;
+  left: 43%;
+  font-size: 60px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 800;
+  margin: -30px;
+}
+h4 {
+  position: relative;
+  left: 0%;
+  font-size: 35px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 50px;
+  margin-bottom: 100px;
+
+}
+
+h6 {
+  position: relative;
+  font-size: 35px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 250px;
+
+}
 
 #container {
   position: absolute;
@@ -32,6 +147,14 @@ p {
   display: inline;
 }
 
+.con {
+  position: relative;
+  top: 200px;
+  font-size: 60px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 800;
+}
+
 #quadratino {
 
   background-color: black;
@@ -43,6 +166,45 @@ animation: rotola 2.5s linear;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
 }
+
+#app {
+  position: absolute;
+  top: 75vh;
+  left: 36%;
+  z-index: 1;
+  font-size: 20px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+  animation: unt 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+  animation-delay: 7s;
+
+}
+
+#masch {
+  position: absolute;
+  top: 75vh;
+  left: 36%;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  animation: whit 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+z-index: 2;
+}
+h5 {
+  font-size: 20px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin-top: : 250px;
+  margin-bottom: 5px;
+}
+
+.spar {
+background-color: #6b8e23;
+}
+
 
 .secondo {
   left: 50%;
@@ -76,8 +238,8 @@ animation-fill-mode: forwards;
 
 #partesotto {
     position: absolute;
-  top: 106vh;
-  left: 50%;
+    left: 50%;
+  top: 206vh;
   transform: translate(-50%, -50%);
   }
 
@@ -92,6 +254,7 @@ animation-fill-mode: forwards;
     animation: cambiocolore 3s infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    z-index: 1;
 }
 
 
@@ -99,27 +262,31 @@ animation-fill-mode: forwards;
   animation: cambiocolore 4s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: 1;
+  font-weight: 900;
 }
 
 .testadx {
-   height: 500px;
+   height: 800px;
   position: absolute;
   bottom: 0vh;
   right:0vh;
   animation: su 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: -1;
 }
 
 
 .testasx {
-   height: 500px;
+   height: 800px;
   position: absolute;
   top: 0vh;
   left:10vh;
   animation: giu 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: -1;
 }
 
 .lato {
@@ -130,18 +297,31 @@ animation-fill-mode: forwards;
   animation: cambiocoloredopo 3s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: -1;
 }
 
 
 
 .basso {
-  height: 250px;
+  height: 350px;
   position:absolute;
-  top: 12vh;
+  top: 8vh;
   left: 65%;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: -1;
+}
+
+.bassx {
+  height: 450px;
+  position:absolute;
+  top: 56vh;
+  left: 26vh;
+  animation: cambiocoloreprima 4s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: -1;
 }
 
 .alto {
@@ -153,6 +333,7 @@ left: 0vh;
 animation: cambiocoloredopo 3.5s linear;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
+z-index: -1;
 }
 
 @keyframes su {
@@ -173,6 +354,26 @@ animation-fill-mode: forwards;
   }
 }
 
+@keyframes unt {
+  0% {opacity: 0;
+  }
+  25% {opacity: 100;
+  }
+  50% {opacity: 0;
+  }
+  85% {opacity: 100;
+  }
+  100% {opacity: 0;
+  }
+}
+@keyframes whit {
+  0% {opacity: 100;
+  }
+  99% {opacity: 100;}
+  100% {opacity: 0;
+  }
+}
+
 @keyframes cambiocolore {
   0% {opacity: 0;
   }
@@ -183,7 +384,7 @@ animation-fill-mode: forwards;
 @keyframes cambiocoloreprima {
   0% {opacity: 0;
   }
-  30% {opacity: 0;
+  10% {opacity: 0;
   }
   70% {opacity: 100;
   }

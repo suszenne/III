@@ -10,7 +10,13 @@
 
 <body>
 
-<img src="https://i.imgur.com/hKA3EQm.jpg" class="basso">
+<div id="mela" class="caratt grana"></div>
+<div id="pera" class="camb pper"></div>
+<div id="kiwi" class="chan ge"></div>
+
+<img src="https://i.imgur.com/sc2Vzw9.jpg" class="basso">
+
+<img src="https://i.imgur.com/N432NXo.jpg" class="bassx">
 
 <img src="https://i.imgur.com/NDKLso5.jpg" class="lato">
 
@@ -26,14 +32,29 @@
 
 
 <div id="container">
- <p> <a href="#Home" class="apparizione lenta"> Home </p>
-<p class="apparizione lenta"> Info </p>
-<p class="apparizione lenta"> About me</p>
-<p class="apparizione lenta"> Contact</p>
+ <p> <a href="#Home" class="apparizione lenta"> HOME </p>
+<p class="apparizione lenta"> <a href="aboutme.html"> ABOUT ME </a> </p>
+<p class="apparizione lenta"> <a href="Works.html"> WORKS </a> </p>
+<p class="apparizione lenta"> <a href="#Contact"> CONTACT </a> </p>
+</div>
+
+<div id="masch">
+</div>
+
+<div>
+<p id="app"> CLICK ON FRUITS! </p>
 </div>
 
 <div id="partesotto">
-<h2 id="Home"> Home </h2>
+<h3 id="Home"> HOME </h3>
+<div align=center> <h4> In this website you can find <br> all my illustrations and videos,  ENJOY! </h4> </div>
+<h5> This animation is called "Panicattack" </h5>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/hJGndLM8woY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div align=center>
+<p id="Contact" class="con"> CONTACT </p>
+<h6> Follow my account <a href="https://www.instagram.com/suszenne/"> Instagram! </a> </div>  </h6>
+
 </div>
 
 
@@ -47,5 +68,51 @@
 
 
 
+<script>
+
+
+function cambiacolore() {
+  if($("#mela").hasClass("grana")) {
+    $("#mela").removeClass("grana");
+    $("#mela").addClass("spar")
+  }
+  else if($("#mela").hasClass("spar"))
+    $("#mela").addClass("grana");
+    else
+  $("#mela").addClass("spar");
+}
+
+$(".caratt").click(cambiacolore);
+
+function cambiadim() {
+  if($("#pera").hasClass("pper")) {
+    $("#pera").removeClass("pper");
+    $("#pera").addClass("piu")
+  }
+  else if($("#pera").hasClass("piu"))
+    $("#pera").addClass("pper");
+    else
+  $("#pera").addClass("piu");
+}
+
+$(".camb").click(cambiadim);
+
+function spar() {
+  if($("#kiwi").hasClass("ge")) {
+    $("#kiwi").removeClass("ge");
+    $("#kiwi").addClass("ner")
+  }
+  else if($("#kiwi").hasClass("piu"))
+    $("#kiwi").addClass("ge");
+    else
+  $("#kiwi").addClass("ner");
+}
+
+$(".chan").click(spar);
+
+
+</script>
+
 </body>
+
 </html>
