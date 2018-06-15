@@ -1,9 +1,293 @@
-p {
-border: 1px solid;
-margin: 50px;
-padding: 20px;
-width: 10px;
-height: 20px;
-overflow: hidden;
-display: inline;
+body {
+  background-color: white;
 }
+
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black
+}
+
+a:hover {
+  color: #5f9ea0;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  position: absolute;
+  top: 5vh;
+  left: 45%;
+}
+
+h2 {
+  position: absolute;
+  top: 17vh;
+  left: 44%;
+  z-index: 1;
+  font-size: 20px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: bold;
+  animation: scr 4s linear;
+  animation-iteration-count: 3;
+  animation-fill-mode:forwards;
+  animation-delay: 0s;
+}
+
+@keyframes scr {
+  0% {opacity:100;}
+25% {opacity:0;}
+50% {opacity:100;}
+100% {opacity:0;}
+}
+
+.foto {
+  height: 280px;
+}
+
+.fuete {
+  height: 260px;
+}
+
+p {
+  padding: 20px;
+  margin:20px;
+}
+
+#container {
+  position: absolute;
+  width: 2000px;
+  top: 20vh;
+  left: 0px;
+margin: 0px;
+animation: scorri 8s linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes scorri {
+  0% {position: absolute;
+  left: 0%;}
+  50% {position: absolute;
+  left: -11%;}
+  100% {position: absolute;
+  left: 0%;
+}
+}
+
+#cesta {
+  position: absolute;
+  width: 2000px;
+  top: 60vh;
+  left: 50vh
+margin: 20px;
+animation: scorre 8s linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes scorre {
+  0% {position: absolute;
+  left: -11%;}
+  50% {position: absolute;
+  left: 0%;}
+  100% {position: absolute;
+  left: -11%;
+}
+}
+
+.spe {
+  width: 700px;
+  height: 5000px;
+  position:absolute;
+  top: 150%;
+  left: 10vh;
+}
+
+
+.photo {
+  height: 700px;
+}
+
+
+.texto {
+  font-size: 40px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  position: absolute;
+  top: 150%;
+  right: 10%;
+  padding: 300px;
+  display: inline;
+  width: 330px;
+  height:500px;
+}
+
+
+#prima {
+  top: 150%;
+}
+#seconda {
+  top: 250%;
+}
+#terza {
+  top: 360%;
+}
+#quarta {
+  top: 460%;
+}
+#quinta {
+  top: 560%;
+}
+#sesta {
+  top: 670%;
+}
+#settima {
+  top: 770%;
+}
+#ottava {
+  top: 880%;
+}
+#nona {
+  top: 980%;
+}
+#decima {
+  top: 1080%;
+  right: -15%;
+}
+#undicesima {
+  top: 1190%;
+  right: -15%;
+}
+#dodicesima {
+  top: 1290%;
+  right: -15%;
+}
+#tredicesima {
+  top: 1390%;
+  right: -15%;
+}
+#quattordicesima {
+  top: 1490%;
+  right: -15%;
+}
+
+
+.strisce {
+  width: 800px;
+  height: 10px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+#rosso {
+  background-color: #f0fff0;
+  top: 5%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.8s;
+}
+
+#rosso2 {
+  background-color: #e0ffff;
+  top: 5%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.8s;
+}
+
+#blu {
+  background-color: #f0fff0;
+  top: 5%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.1s;
+}
+
+#bluscuro {
+  background-color: #e0ffff;
+  top: 22%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.6s;
+}
+
+#blu3 {
+  background-color: #f0f8ff;
+  top: 10%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+
+#blu4 {
+  background-color: #e6e6fa;
+  top: 16%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.3s;
+}
+
+#blu5 {
+  background-color:#e6e6fa;
+  top: 22%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7s;
+}
+
+#blu6 {
+  background-color: 	#f0f8ff;
+  top: 18%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.3s;
+}
+
+#blu7 {
+  background-color:	#e6e6fa;
+  top: 22%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.8s;
+}
+
+#blu8 {
+  background-color: #e6e6fa;
+  top: 16%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2s;
+}
+
+
+#blu9 {
+  background-color:	#d3d3d3;
+  top: 10%;
+  animation: corri 3s linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1.6s;
+}
+
+
+
+@keyframes corri {
+  0% {left: -90%;}
+  100% {left: 120%;
+    }
+  }
+
+  #back {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    margin-top: 1%;
+    width: 200px;
+    height: 25px;
+    border: 1px black solid;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    padding:0px;
+  }
