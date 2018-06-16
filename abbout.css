@@ -15,168 +15,6 @@ a:hover {
 #contenitore {
   position:absolute;
   top: 4%;
-  left:10%;
-  width: 2000px;
-  height: 500px;
-  z-index: 1;
-
-}
-
-@keyframes scivola {
-  0% {left: -40%;}
-  100% {left: 15%;}
-}
-
-
-.rett {
-  position: absolute;
-  width: 500px;
-  height: 700px;
-  background-color: #fff0f5;
-  z-index: -1;
-  border-radius: 8%;
-  animation: scivola 1s linear;
-  animation-fill-mode: forwards;
-}
-
-p {
-   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-   z-index: 1;
-   position: relative;
-   top: 8vh;
-   left: 53vh;
-   transform: translate(-50%,-50%);
-}
-
-#ab {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 800;
-  font-size: 60px;
-  left: 43.5vh;
-}
-
-#lu {
-  font-size: 25px;
-  position: relative;
-  top: 30vh;
-  left: 50%;
-  width: 450px;
-}
-
-.ffoto {
-  height: 800px;
-  position: absolute;
-  right: 0%;
-  z-index: -1;
-  animation: compare 2s linear;
-  animation-fill-mode: forwards;
-}
-
-@keyframes compare {
-  0% {opacity: 0;}
-  100% {opacity: 100;}
-}
-
-.sin {
-  height: 300px;
-  position: absolute;
-  left: 15%;
-  z-index: -1;
-}
-
-#su {
-  top: 10%;
-  animation: china 10s linear;
-  animation-iteration-count: infinite;
-  animation-timing-function:ease-in-out;
-}
-
-@keyframes china {
-0% {opacity: 0;}
-45% {opacity: 50;}
-50% {opacity: 100;}
-75% {opacity: 50;}
-100% {opacity: 0;}
-}
-
-#giu {
-  height: 600px;
-  top: 60%;
-  left: 1%;
-  animation: fra 20s linear;
-  animation-iteration-count: infinite;
-  animation-timing-function:ease-in-out;
-  animation-delay: -10s;
-}
-
-@keyframes fra {
-0% {opacity: 0;}
-45% {opacity: 50;}
-50% {opacity: 100;}
-75% {opacity: 50;}
-100% {opacity: 0;}
-}
-
-#liri {
-  position: absolute;
-  height: 750px;
-  top: 10%;
-  left: -10%;
-  animation: lirica 15s linear;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  z-index: -1;
-}
-
-@keyframes lirica {
-0% {opacity: 0;}
-45% {opacity: 0;}
-50% {opacity: 100;}
-75% {opacity: 100;}
-100% {opacity: 0;}
-}
-
-
-#coll {
-  position: absolute;
-  height: 450px;
-  top: 20%;
-  left: 59%;
-  animation: lirica 15s linear;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-delay: -4s;
-  z-index: -1;
-}
-
-#back {
-  position: absolute;
-  top: 4%;
-  left: 10%;
-  margin-top: 1%;
-  width: 200px;
-  height: 25px;
-  border: 1px black solid;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-size: 20px;
-  font-weight:bold;
-}
-
-
-a:visited {
-  color: black;
-}
-
-a:hover {
-  color: #db7093;
-  text-decoration:overline;
-}
-
-
-#contenitore {
-  position:absolute;
-  top: 4%;
   left:15%;
   width: 2000px;
   height: 500px;
@@ -214,7 +52,7 @@ p {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 800;
   font-size: 60px;
-  left: 54vh;
+  left: 43.5vh;
 }
 
 #lu {
@@ -304,7 +142,7 @@ p {
   position: absolute;
   height: 450px;
   top: 20%;
-  left: 64%;
+  left: 59%;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
