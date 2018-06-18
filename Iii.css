@@ -270,7 +270,7 @@ background-color: #6b8e23;
    height: 800px;
   position: absolute;
   bottom: 0vh;
-  right:0vh;
+  right: 0vh;
   animation: su 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
