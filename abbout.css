@@ -15,7 +15,7 @@ a:hover {
 #contenitore {
   position:absolute;
   top: 4%;
-  left:15%;
+  left:8%;
   width: 2000px;
   height: 500px;
   z-index: 1;
@@ -24,7 +24,7 @@ a:hover {
 
 @keyframes scivola {
   0% {left: -40%;}
-  100% {left: 15%;}
+  100% {left: 8%;}
 }
 
 
@@ -64,7 +64,7 @@ p {
 }
 
 .ffoto {
-  height: 1400px;
+  height: 800px;
   position: absolute;
   right: 0%;
   z-index: -1;
@@ -142,7 +142,7 @@ p {
   position: absolute;
   height: 450px;
   top: 20%;
-  left: 59%;
+  left: 64%;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
