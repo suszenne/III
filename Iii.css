@@ -14,7 +14,7 @@ body {
   border-radius: 50%;
   position: absolute;
   left: 25%;
-  top: 68%;
+  top: 88%;
 }
 
 .grana {
@@ -28,7 +28,7 @@ body {
   background-color: #ff8c00;
   position: absolute;
   left: 20%;
-  top: 73%;
+  top: 95%;
   z-index: 2;
 }
 
@@ -58,7 +58,7 @@ body {
   border-radius: 50%;
   position: absolute;
   left: 15%;
-  top: 66%;
+  top: 88%;
 }
 
 .ge {
@@ -326,7 +326,7 @@ background-color: #6b8e23;
 
 .alto {
 
- height: 500px;
+ height: 300px;
 position: absolute;
 top: 0vh;
 left: 0vh;
