@@ -328,8 +328,8 @@ background-color: #6b8e23;
 
  height: 300px;
 position: absolute;
-top: 0vh;
-left: 0vh;
+top: 15vh;
+left: 20vh;
 animation: cambiocoloredopo 3.5s linear;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
