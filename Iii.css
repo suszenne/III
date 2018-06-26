@@ -304,7 +304,7 @@ background-color: #6b8e23;
 
 
 .basso {
-  height: 60%;
+  height: 50%;
   position:absolute;
   top: 0%;
   left: 65%;
@@ -315,7 +315,7 @@ background-color: #6b8e23;
 }
 
 .bassx {
-  height: 60%;
+  height: 50%;
   position:absolute;
   top: 42%;
   left: 13%;
@@ -327,7 +327,7 @@ background-color: #6b8e23;
 
 .alto {
 
-height: 50%;
+height: 40%;
 position: absolute;
 top: 5%;
 left: 10%;
