@@ -13,7 +13,7 @@ body {
   height: 10vh;
   border-radius: 50%;
   position: absolute;
-  left: 55vh%;
+  left: 55vh;
   top: 88vh;
 }
 
@@ -22,13 +22,13 @@ body {
 }
 
 .camb {
-  width: 5%;
-  height: 10%;
+  width: 10vh;
+  height: 10vh;
   border-radius: 50%;
   background-color: #ff8c00;
   position: absolute;
-  left: 20%;
-  top: 95%;
+  left: 43vh;
+  top: 95vh;
   z-index: 2;
 }
 
@@ -53,12 +53,12 @@ body {
 }
 
 .chan {
-  width: 5%;
-  height: 10%;
+  width: 10vh;
+  height: 10vh;
   border-radius: 50%;
   position: absolute;
-  left: 15%;
-  top: 88%;
+  left: 30vh;
+  top: 88vh;
 }
 
 .ge {
@@ -94,7 +94,7 @@ a:hover {
 h1 {
 font-size: 10vh;
 position: absolute;
-top: 38h;
+top: 38vh;
 left: 105vh;
 }
 
@@ -108,7 +108,7 @@ h2 {
 
 h3 {
   position:relative;
-  left: 60vh;
+  left: 56vh;
   font-size: 10vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 800;
@@ -116,7 +116,7 @@ h3 {
 }
 h4 {
   position: relative;
-  left: 2vh;
+  left: 0vh;
   font-size: 5vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 6vh;
