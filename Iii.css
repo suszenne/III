@@ -134,6 +134,7 @@ h6 {
 
 #container {
   position: absolute;
+  width: 30%
 top: 56%;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -292,7 +293,7 @@ background-color: #6b8e23;
 .lato {
    height: 60%;
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 64%;
   animation: cambiocoloredopo 3s linear;
   animation-iteration-count: 1;
@@ -305,8 +306,8 @@ background-color: #6b8e23;
 .basso {
   height: 60%;
   position:absolute;
-  top: 10%;
-  left: 55%;
+  top: 0%;
+  left: 65%;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -316,7 +317,7 @@ background-color: #6b8e23;
 .bassx {
   height: 60%;
   position:absolute;
-  top: 37%;
+  top: 42%;
   left: 13%;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
@@ -328,7 +329,7 @@ background-color: #6b8e23;
 
 height: 50%;
 position: absolute;
-top: 10%;
+top: 5%;
 left: 10%;
 animation: cambiocoloredopo 3.5s linear;
 animation-iteration-count: 1;
