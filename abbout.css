@@ -14,10 +14,10 @@ a:hover {
 
 #contenitore {
   position:absolute;
-  top: 4%;
-  left: 18%;
-  width: 2000px;
-  height: 500px;
+  top: 4vh;
+  left: 55vh;
+  width: 100vh;
+  height: 100vh;
   z-index: 1;
 
 }
@@ -30,8 +30,8 @@ a:hover {
 
 .rett {
   position: absolute;
-  width: 500px;
-  height: 700px;
+  width: 80vh;
+  height: 100vh;
   background-color: #fff0f5;
   z-index: -1;
   border-radius: 8%;
@@ -51,22 +51,22 @@ p {
 #ab {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 800;
-  font-size: 60px;
-  left: 52vh;
+  font-size: 10vh;
+  left: 55vh;
 }
 
 #lu {
-  font-size: 25px;
+  font-size: 3.8vh;
   position: relative;
   top: 30vh;
-  left: 50%;
-  width: 450px;
+  left: 41vh;
+  width: 70vh;
 }
 
 .ffoto {
-  height: 800px;
+  height: 120vh;
   position: absolute;
-  right: 0%;
+  right: 0vh;
   z-index: -1;
   animation: compare 2s linear;
   animation-fill-mode: forwards;
@@ -78,14 +78,14 @@ p {
 }
 
 .sin {
-  height: 300px;
+  height: 50vh;
   position: absolute;
-  left: 15%;
+  left: 32vh;
   z-index: -1;
 }
 
 #su {
-  top: 10%;
+  top: 8vh;
   animation: china 10s linear;
   animation-iteration-count: infinite;
   animation-timing-function:ease-in-out;
@@ -100,9 +100,9 @@ p {
 }
 
 #giu {
-  height: 600px;
-  top: 60%;
-  left: 1%;
+  height: 80vh;
+  top: 50vh;
+  left: 1vh;
   animation: fra 20s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -119,9 +119,9 @@ p {
 
 #liri {
   position: absolute;
-  height: 750px;
-  top: 10%;
-  left: -10%;
+  height: 110vh;
+  top: 10vh;
+  left: -20vh;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -140,9 +140,9 @@ p {
 
 #coll {
   position: absolute;
-  height: 450px;
-  top: 20%;
-  left: 64%;
+  height: 80vh;
+  top: 10vh;
+  left: 130vh;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -152,8 +152,8 @@ p {
 
 #back {
   position: absolute;
-  top: 4%;
-  left: 10%;
+  top: 4vh;
+  left: 20vh;
   margin-top: 1%;
   width: 200px;
   height: 25px;
