@@ -268,10 +268,10 @@ background-color: #6b8e23;
 }
 
 .testadx {
-   height: 130%;
+   height: 130vh;
   position: absolute;
-  bottom: 0%;
-  right: 0%;
+  top: 0vh;
+  right: 0vh;
   animation: su 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -280,10 +280,10 @@ background-color: #6b8e23;
 
 
 .testasx {
-   height: 130%;
+   height: 130vh;
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 0vh;
+  left: 0vh;
   animation: giu 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
