@@ -9,12 +9,12 @@ body {
 }
 
 .caratt {
-  width: 5%;
-  height: 10%;
+  width: 10vh;
+  height: 10vh;
   border-radius: 50%;
   position: absolute;
-  left: 25%;
-  top: 88%;
+  left: 55vh%;
+  top: 88vh;
 }
 
 .grana {
