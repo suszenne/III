@@ -9,8 +9,8 @@ body {
 }
 
 .caratt {
-  width: 70px;
-  height: 70px;
+  width: 5%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   left: 25%;
@@ -22,8 +22,8 @@ body {
 }
 
 .camb {
-  width: 70px;
-  height: 70px;
+  width: 5%;
+  height: 10%;
   border-radius: 50%;
   background-color: #ff8c00;
   position: absolute;
@@ -53,8 +53,8 @@ body {
 }
 
 .chan {
-  width: 70px;
-  height: 70px;
+  width: 5%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   left: 15%;
@@ -92,9 +92,9 @@ a:hover {
 }
 
 h1 {
-font-size: 65px;
+font-size: 400%;
 position: absolute;
-top: 38vh;
+top: 38%;
 left: 50%;
 }
 
@@ -109,41 +109,41 @@ h2 {
 h3 {
   position:relative;
   left: 43%;
-  font-size: 60px;
+  font-size: 340%;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 800;
-  margin: -30px;
+  margin: -4%;
 }
 h4 {
   position: relative;
   left: 0%;
-  font-size: 35px;
+  font-size: 175%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 50px;
-  margin-bottom: 100px;
+  margin: 6%;
+  margin-bottom: 10%;
 
 }
 
 h6 {
   position: relative;
-  font-size: 35px;
+  font-size: 220%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 250px;
+  margin-top: 40%;
 
 }
 
 #container {
   position: absolute;
-top: 56vh;
+top: 56%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
 p {
-  font-size: 20px;
+  font-size: 150%;
   border: 0px solid black;
-  margin: 1px;
-  padding: 15px;
+  margin: 2%;
+  padding: 1%;
   display: inline;
 }
 
@@ -158,9 +158,10 @@ p {
 #quadratino {
 
   background-color: black;
-  height: 1.3vh;
-width: 1.3vh;
+  height: 7%;
+width: 5%;
 position: absolute;
+  top: 60%;
 display: inline;
 animation: rotola 2.5s linear;
 animation-iteration-count: 1;
@@ -169,10 +170,10 @@ animation-fill-mode: forwards;
 
 #app {
   position: absolute;
-  top: 75vh;
+  top: 75%;
   left: 36%;
   z-index: 1;
-  font-size: 20px;
+  font-size: 100%;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
   animation: unt 5s linear;
@@ -184,10 +185,10 @@ animation-fill-mode: forwards;
 
 #masch {
   position: absolute;
-  top: 75vh;
+  top: 75%;
   left: 36%;
-  width: 300px;
-  height: 300px;
+  width: 20%;
+  height: 30%;
   background-color: white;
   animation: whit 5s linear;
   animation-iteration-count: 1;
@@ -195,10 +196,9 @@ animation-fill-mode: forwards;
 z-index: 2;
 }
 h5 {
-  font-size: 20px;
+  font-size: 140%;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  margin-top: : 250px;
-  margin-bottom: 5px;
+  margin-bottom:  1%;
 }
 
 .spar {
@@ -226,10 +226,10 @@ background-color: #6b8e23;
 
  #quadratone {
    border: 0px solid black;
-   height: 2vh;
- width: 30vh;
+   height: 20%;
+ width: 13%;
    position: absolute;
-   top: 40%;
+   top: 70%;
    animation: spostamento 2s linear;
    animation-iteration-count: 1;
    animation-fill-mode: forwards;
@@ -239,7 +239,7 @@ background-color: #6b8e23;
 #partesotto {
     position: absolute;
     left: 50%;
-  top: 220vh;
+  top: 250%;
   transform: translate(-50%, -50%);
   }
 
@@ -267,10 +267,10 @@ background-color: #6b8e23;
 }
 
 .testadx {
-   height: 800px;
+   height: 130%;
   position: absolute;
-  bottom: 0vh;
-  right: 0vh;
+  bottom: 0%;
+  right: 0%;
   animation: su 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -279,10 +279,10 @@ background-color: #6b8e23;
 
 
 .testasx {
-   height: 800px;
+   height: 130%;
   position: absolute;
-  top: 0vh;
-  left: 0vh;
+  top: 0%;
+  left: 0%;
   animation: giu 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -290,10 +290,10 @@ background-color: #6b8e23;
 }
 
 .lato {
-   height: 400px;
+   height: 60%;
   position: absolute;
-  top: 50vh;
-  left:130vh;
+  top: 35%;
+  left: 64%;
   animation: cambiocoloredopo 3s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -303,10 +303,10 @@ background-color: #6b8e23;
 
 
 .basso {
-  height: 350px;
+  height: 60%;
   position:absolute;
-  top: 8vh;
-  left: 65%;
+  top: 10%;
+  left: 55%;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -314,10 +314,10 @@ background-color: #6b8e23;
 }
 
 .bassx {
-  height: 450px;
+  height: 60%;
   position:absolute;
-  top: 56vh;
-  left: 26vh;
+  top: 37%;
+  left: 13%;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -326,10 +326,10 @@ background-color: #6b8e23;
 
 .alto {
 
- height: 300px;
+height: 50%;
 position: absolute;
-top: 10vh;
-left: 20vh;
+top: 10%;
+left: 10%;
 animation: cambiocoloredopo 3.5s linear;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
