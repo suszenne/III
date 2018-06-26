@@ -154,11 +154,11 @@ p {
   position: absolute;
   top: 4vh;
   left: 20vh;
-  margin-top: 1%;
-  width: 200px;
-  height: 25px;
+  margin-top: 1vh;
+  width: 30vh;
+  height: 4vh;
   border: 1px black solid;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 3vh;
   font-weight:bold;
 }
