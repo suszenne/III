@@ -88,11 +88,11 @@ animation-iteration-count: infinite;
 
 @keyframes scorre {
   0% {position: absolute;
-  left: -90%;}
+  left: -90vh;}
   50% {position: absolute;
-  left: -2%;}
+  left: -2vh;}
   100% {position: absolute;
-  left: -90%;
+  left: -90vh;
 }
 }
 
