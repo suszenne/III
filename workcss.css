@@ -16,19 +16,19 @@ a:hover {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 9vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   position: absolute;
   top: 5vh;
-  left: 45%;
+  left: 90vh;
 }
 
 h2 {
   position: absolute;
   top: 17vh;
-  left: 44%;
+  left: 85vh;
   z-index: 1;
-  font-size: 20px;
+  font-size: 3.5vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: bold;
   animation: scr 4s linear;
@@ -53,55 +53,54 @@ h2 {
 }
 
 p {
-  padding: 20px;
-  margin:20px;
+  padding: 2vh;
+  margin:2vh;
 }
 
 #container {
   position: absolute;
-  width: 2000px;
+  width: 300vh;
   top: 22vh;
-  left: 0px;
-margin: 0px;
-animation: scorri 8s linear;
+  left: 0vh;
+margin: 0vh;
+animation: scorri 9s linear;
 animation-iteration-count: infinite;
 }
 
 @keyframes scorri {
   0% {position: absolute;
-  left: 0%;}
+  left: 0vh;}
   50% {position: absolute;
-  left: -11%;}
+  left: -70vh;}
   100% {position: absolute;
-  left: 0%;
+  left: 0vh;
 }
 }
 
 #cesta {
   position: absolute;
-  width: 2000px;
+  width: 400vh;
   top: 69vh;
-  left: 50vh
-margin: 20px;
-animation: scorre 8s linear;
+  left: 0vh;
+animation: scorre 9s linear;
 animation-iteration-count: infinite;
 }
 
 @keyframes scorre {
   0% {position: absolute;
-  left: -11%;}
+  left: -90%;}
   50% {position: absolute;
-  left: 0%;}
+  left: -2%;}
   100% {position: absolute;
-  left: -11%;
+  left: -90%;
 }
 }
 
 .spe {
-  width: 700px;
-  height: 5000px;
+  width: 100vh;
+  height: 100vh;
   position:absolute;
-  top: 150%;
+  top: 150vh;
   left: 10vh;
 }
 
@@ -112,70 +111,69 @@ animation-iteration-count: infinite;
 
 
 .texto {
-  font-size: 40px;
+  font-size: 6vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   position: absolute;
-  top: 150%;
-  right: 1%;
-  padding: 300px;
+  right: 1vh;
+  padding: 50vh;
   display: inline;
-  width: 330px;
-  height:500px;
+  width: 50vh;
+  height: 10vh;
 }
 
 
 #prima {
-  top: 160%;
+  top: 140vh;
 }
 #seconda {
-  top: 290%;
+  top: 280vh;
 }
 #terza {
-  top: 400%;
+  top: 390vh;
 }
 #quarta {
-  top: 540%;
+  top: 520vh;
 }
 #quinta {
-  top: 660%;
+  top: 630vh;
 }
 #sesta {
-  top: 790%;
+  top: 760vh;
 }
 #settima {
-  top: 910%;
+  top: 860vh;
 }
 #ottava {
-  top: 1060%;
+  top: 1000vh;
 }
 #nona {
-  top: 1090%;
+  top: 1110vh;
 }
 #decima {
-  top: 1330%;
-  right: -35%;
+  top: 1250vh;
+  left: 130vh;
 }
 #undicesima {
-  top: 1430%;
-  right: -35%;
+  top: 1370vh;
+  left: 130vh;
 }
 #dodicesima {
-  top: 1590%;
-  right: -35%;
+  top: 1470vh;
+  right: 130vh;
 }
 #tredicesima {
-  top: 1690%;
-  right: -35%;
+  top: 1600vh;
+  left: 130vh;
 }
 #quattordicesima {
-  top: 1840%;
-  right: -35%;
+  top: 1720vh;
+  right: 130vh;
 }
 
 
 .strisce {
-  width: 800px;
-  height: 10px;
+  width: 100vh;
+  height: 1.5vh;
   position: absolute;
   z-index: -1;
   border-radius: 50%;
@@ -273,21 +271,21 @@ animation-iteration-count: infinite;
 
 
 @keyframes corri {
-  0% {left: -90%;}
-  100% {left: 120%;
+  0% {left: -90vh;}
+  100% {left: 220vh;
     }
   }
 
   #back {
     position: absolute;
-    top: 2%;
-    left: 3%;
-    margin-top: 1%;
-    width: 200px;
-    height: 25px;
+    top: 2vh;
+    left: 1.7vh;
+    margin-top: 1vh;
+    width: 30vh;
+    height: 4vh;
     border: 1px black solid;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 20px;
+    font-size: 3vh;
     font-weight:bold;
     padding:0px;
   }
