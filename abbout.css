@@ -4,11 +4,11 @@ a {
 
 a:visited {
   color: black;
+  text-decoration: underline overline;
 }
 
 a:hover {
   color: #db7093;
-  text-decoration:overline;
 }
 
 
