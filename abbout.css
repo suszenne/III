@@ -1,9 +1,11 @@
 a {
   color: black;
+  text-decoration: underline;
 }
 
 a:visited {
   color: black;
+  text-decoration: underline;
 }
 
 a:hover {
