@@ -51,9 +51,19 @@ p {
 #ab {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 800;
-  font-size: 10vh;
+  font-size: 9vh;
   left: 55vh;
+  animation: giga 3s linear;
+  animation-iteration-count: infinite;  
 }
+
+@keyframes giga {
+  0% {font-size: 9vh;}
+  50% {font-size: 10vh;}
+  100% {font-size: 9vh;}
+  
+}
+  
 
 #lu {
   font-size: 3.8vh;
