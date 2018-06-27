@@ -67,6 +67,73 @@ body {
   animation-fill-mode: forwards;
 }
 
+#cocco {
+  animation: giu 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background-color: #a0522d;
+}
+
+.ju {
+  width: 9vh;
+  height: 9vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 155vh;
+  top: 22vh;
+}
+
+.manji {
+  background-color: #dc143c;
+}
+
+.kill {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  background-color: #ff8c00;
+  position: absolute;
+  left: 168vh;
+  top: 30vh;
+  z-index: 2;
+}
+
+.bill {
+  width: 70px;
+  height: 70px;
+}
+
+.piu {
+  width: 30px;
+  height: 30px;
+}
+
+#uva  {
+  animation: giu 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background-color: #ffa500;
+}
+
+#mango {
+  background-color: #b22222;
+}
+
+.iron {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 145vh;
+  top: 30vh;
+}
+
+.me {
+  animation: giu 5s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 .ner {
   animation: kambio 2s linear;
   animation-iteration-count: 1;
@@ -79,7 +146,7 @@ body {
   }
 
 a {
-  colro: black;
+  color: black;
 }
 
 a:visited {
@@ -95,7 +162,7 @@ h1 {
 font-size: 8vh;
 position: absolute;
 top: 41vh;
-left: 105vh;
+left: 107vh;
 }
 
 h2 {
@@ -136,7 +203,7 @@ h6 {
   position: absolute;
   width: 65vh;
 top: 56vh;
-left: 108.5vh;
+left: 107vh;
 transform: translate(-50%, -50%);
 }
 
@@ -256,6 +323,7 @@ background-color: #6b8e23;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     z-index: 1;
+  padding: 0.5vh;
 }
 
 
