@@ -113,6 +113,47 @@ function spar() {
 }
 
 $(".chan").click(spar);
+ 
+ 
+ 
+ function cambiacolore() {
+  if($("#cocco").hasClass("manji")) {
+    $("#cocco").removeClass("manji");
+    $("#cocco").addClass("spar")
+  }
+  else if($("#cocco").hasClass("spar"))
+    $("#cocco").addClass("manji");
+    else
+  $("#cocco").addClass("spar");
+}
+
+$(".ju").click(cambiacolore);
+
+function cambiadim() {
+  if($("#uva").hasClass("bill")) {
+    $("#uva").removeClass("bill");
+    $("#uva").addClass("piu")
+  }
+  else if($("#uva").hasClass("piu"))
+    $("#uva").addClass("bill");
+    else
+  $("#uva").addClass("piu");
+}
+
+$(".kill").click(cambiadim);
+
+function spar() {
+  if($("#mango").hasClass("man")) {
+    $("#mango").removeClass("man");
+    $("#mango").addClass("ner")
+  }
+  else if($("#mango").hasClass("piu"))
+    $("#mango").addClass("man");
+    else
+  $("#mango").addClass("ner");
+}
+
+$(".iron").click(spar);
 
 
 </script>
