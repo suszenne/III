@@ -108,6 +108,12 @@ body {
   height: 30px;
 }
 
+
+.poi {
+  width: 30px;
+  height: 30px;
+}
+
 #uva  {
   animation: giu 5s linear;
   animation-iteration-count: 1;
@@ -135,6 +141,12 @@ body {
 }
 
 .ner {
+  animation: kambio 2s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.nev {
   animation: kambio 2s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -270,6 +282,10 @@ h5 {
 }
 
 .spar {
+background-color: #6b8e23;
+}
+
+.sper {
 background-color: #6b8e23;
 }
 
