@@ -375,9 +375,9 @@ background-color: #6b8e23;
 }
 
 .lato {
-   height: 45vh;
+   height: 55vh;
   position: absolute;
-  top: 53vh;
+  top: 49vh;
   left: 148vh;
   animation: cambiocoloredopo 3s linear;
   animation-iteration-count: 1;
@@ -388,10 +388,10 @@ background-color: #6b8e23;
 
 
 .basso {
-  height: 30vh;
+  height: 35vh;
   position:absolute;
-  top: 20vh;
-  left: 150vh;
+  top: 17vh;
+  left: 138vh;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -413,7 +413,7 @@ background-color: #6b8e23;
   height: 40vh;
 position: absolute;
 top: 16vh;
-left: 32vh;
+left: 18vh;
 animation: cambiocoloredopo 3.5s linear;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
