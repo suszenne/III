@@ -375,10 +375,10 @@ background-color: #6b8e23;
 }
 
 .lato {
-   height: 37vh;
+   height: 45vh;
   position: absolute;
   top: 53vh;
-  left: 153vh;
+  left: 148vh;
   animation: cambiocoloredopo 3s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -388,9 +388,9 @@ background-color: #6b8e23;
 
 
 .basso {
-  height: 30%;
+  height: 30vh;
   position:absolute;
-  top: 5vh;
+  top: 20vh;
   left: 150vh;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
@@ -399,9 +399,9 @@ background-color: #6b8e23;
 }
 
 .bassx {
-  height: 40vh;
+  height: 50vh;
   position:absolute;
-  top: 55vh;
+  top: 52vh;
   left: 38vh;
   animation: cambiocoloreprima 4s linear;
   animation-iteration-count: 1;
@@ -410,9 +410,9 @@ background-color: #6b8e23;
 }
 
 .alto {
-  height: 35vh;
+  height: 40vh;
 position: absolute;
-top: 10vh;
+top: 16vh;
 left: 32vh;
 animation: cambiocoloredopo 3.5s linear;
 animation-iteration-count: 1;
