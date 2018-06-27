@@ -16,13 +16,17 @@ a:hover {
 }
 
 h1 {
-  font-size: 9vh;
+  font-size: 10vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   position: absolute;
-  top: 5vh;
+  top: 4vh;
   left: 90vh;
   animation: gr 3s linear;
   animation-iteration-count: infinite;
+}
+
+h1:hover {
+  background-color: #778899;
 }
 
 @keyframes gr {
