@@ -83,6 +83,11 @@ body {
   top: 22vh;
 }
 
+.ju:hover {
+top: 20vh;
+  left: 157vh;
+}
+
 .manji {
   background-color: #dc143c;
 }
