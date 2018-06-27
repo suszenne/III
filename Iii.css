@@ -145,10 +145,7 @@ top: 20vh;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-  
-.man:hover {
-  background-color: #800000;
-  }
+
 
 .ner {
   animation: kambio 2s linear;
