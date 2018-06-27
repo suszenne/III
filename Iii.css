@@ -176,6 +176,8 @@ a:hover {
 h1 {
 font-size: 8vh;
 position: absolute;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bolder;
 top: 41vh;
 left: 107vh;
 }
@@ -183,6 +185,7 @@ left: 107vh;
 h2 {
   font-size: 30px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
   position: absolute;
   top: 38vh;
   left: 50%;
@@ -193,7 +196,7 @@ h3 {
   left: 56vh;
   font-size: 10vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 800;
+  font-weight: bolder;
   margin: -4vh;
 }
 h4 {
@@ -201,6 +204,7 @@ h4 {
   left: 0vh;
   font-size: 5vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
   margin: 6vh;
   margin-bottom: 10vh;
 
@@ -210,6 +214,7 @@ h6 {
   position: relative;
   font-size: 5vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
   margin-top: 53vh;
 
 }
@@ -331,10 +336,7 @@ background-color: #6b8e23;
 .apparizione {
   transform: translate(-50%, -50%);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  	font-style: normal;
-  	font-variant: normal;
-  	font-weight: 510;
-  	line-height: 26.4px;
+  	font-weight: bolder;
     animation: cambiocolore 3s infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
