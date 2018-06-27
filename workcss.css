@@ -8,11 +8,12 @@ a {
 }
 
 a:visited {
-  color: black
+  color: black;
 }
 
 a:hover {
   color: #5f9ea0;
+  text-decoration: underline overline;
 }
 
 h1 {
