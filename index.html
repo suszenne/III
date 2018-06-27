@@ -119,12 +119,12 @@ $(".chan").click(spar);
  function cambiacolore() {
   if($("#cocco").hasClass("manji")) {
     $("#cocco").removeClass("manji");
-    $("#cocco").addClass("spar")
+    $("#cocco").addClass("sper")
   }
-  else if($("#cocco").hasClass("spar"))
+  else if($("#cocco").hasClass("sper"))
     $("#cocco").addClass("manji");
     else
-  $("#cocco").addClass("spar");
+  $("#cocco").addClass("sper");
 }
 
 $(".ju").click(cambiacolore);
@@ -132,12 +132,12 @@ $(".ju").click(cambiacolore);
 function cambiadim() {
   if($("#uva").hasClass("bill")) {
     $("#uva").removeClass("bill");
-    $("#uva").addClass("piu")
+    $("#uva").addClass("poi")
   }
-  else if($("#uva").hasClass("piu"))
+  else if($("#uva").hasClass("poi"))
     $("#uva").addClass("bill");
     else
-  $("#uva").addClass("piu");
+  $("#uva").addClass("poi");
 }
 
 $(".kill").click(cambiadim);
@@ -145,12 +145,12 @@ $(".kill").click(cambiadim);
 function spar() {
   if($("#mango").hasClass("man")) {
     $("#mango").removeClass("man");
-    $("#mango").addClass("ner")
+    $("#mango").addClass("nev")
   }
   else if($("#mango").hasClass("piu"))
     $("#mango").addClass("man");
     else
-  $("#mango").addClass("ner");
+  $("#mango").addClass("nev");
 }
 
 $(".iron").click(spar);
