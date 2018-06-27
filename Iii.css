@@ -154,16 +154,6 @@ top: 20vh;
   animation-fill-mode: forwards;
 }
 
-.ner {
-  animation: desstra 2s linear;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes desstra {
-  from {left:157vh;}
-  to {left: 160vh;}
-  }
 
 @keyframes kambio {
   from {opacity: 100;}
