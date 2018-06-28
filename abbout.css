@@ -140,9 +140,9 @@ p {
 
 #cicci {
   position: absolute;
-  height: 47vh;
+  height: 72vh;
   top: 0vh;
-  left: 140vh;
+  left: 148vh;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
