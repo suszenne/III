@@ -47,11 +47,11 @@ a:hover {
 @keyframes scivola {
   0% {left: -40%;
   height: 95vh;
-  border-radius: 85%;
+  border-radius: 10%;
   opacity: 0.5;}
   50% {left: -16%;
   height: 95vh;
-  border-radius: 85%;
+  border-radius: 10%;
   opacity: 1;}
   100% {left: 8%;
   height: 160vh;
@@ -66,7 +66,7 @@ a:hover {
   height: 100vh;
   background-color: #fff0f5;
   z-index: -1;
-  border-radius: 8%;
+  border-radius: 10%;
   animation: scivola 1s linear;
   animation-fill-mode: forwards;
 }
@@ -97,7 +97,7 @@ p {
   font-size: 3.8vh;
   position: relative;
   top: 30vh;
-  left: 45vh;
+  left: 35vh;
   width: 70vh;
 }
 
