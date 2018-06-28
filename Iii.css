@@ -165,7 +165,7 @@ a {
 }
 
 a:visited {
-  color: #6495ed;
+  color: #8b0000;
 }
 
 a:hover {
@@ -350,7 +350,8 @@ background-color: #6b8e23;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   z-index: 1;
-  font-weight: 900;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 3vh;
 }
 
 .testadx {
