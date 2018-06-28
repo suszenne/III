@@ -379,8 +379,8 @@ background-color: #6b8e23;
 .lato {
    height: 52vh;
   position: absolute;
-  top: 49vh;
-  left: 140vh;
+  top: 59vh;
+  left: 100vh;
   animation: cambiocoloredopo 3s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -389,10 +389,10 @@ background-color: #6b8e23;
 
 
 .cima {
-   height: 45vh;
+   height: 40vh;
   position: absolute;
   top: 0vh;
-  left: 80vh;
+  left: 72vh;
   animation: cambiocoloredopo 3s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
