@@ -47,11 +47,11 @@ a:hover {
 @keyframes scivola {
   0% {left: -40%;
   height: 95vh;
-  border-radius: 75%;
+  border-radius: 85%;
   opacity: 0.5;}
   50% {left: -16%;
   height: 95vh;
-  border-radius: 75%;
+  border-radius: 85%;
   opacity: 1;}
   100% {left: 8%;
   height: 160vh;
