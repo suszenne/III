@@ -74,7 +74,8 @@ p {
 .ffoto {
   height: 60%;
   position: absolute;
-  left: 15vh;
+  top: 47vh;
+  left: 22vh;
   z-index: -1;
   animation: compare 2s linear;
   animation-fill-mode: forwards;
@@ -137,6 +138,18 @@ p {
   z-index: -1;
 }
 
+#cicci {
+  position: absolute;
+  height: 47vh;
+  top: 10vh;
+  left: 120vh;
+  animation: lirica 15s linear;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  z-index: -1;
+}
+
 @keyframes lirica {
 0% {opacity: 0;}
 45% {opacity: 0;}
@@ -148,9 +161,9 @@ p {
 
 #coll {
   position: absolute;
-  height: 80vh;
+  height: 60vh;
   top: 10vh;
-  left: 130vh;
+  left: 140vh;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
