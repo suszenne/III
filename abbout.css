@@ -26,12 +26,14 @@ a:hover {
 #mask {
   position: absolute;
   top: 0vh;
-  left: 50vh;
+  left: 54vh;
   background-color: white;
   width: 90vh;
-  height: 30vh;
+  height: 6vh;
   animation: sciao 1s linear;
   animation-iteration-count: 1; 
+  animation-delay: 3s;
+  z-index: 1;
 }
 
 @keyframes sciao {
@@ -42,11 +44,14 @@ a:hover {
   
 @keyframes scivola {
   0% {left: -40%;
-  height: 95vh;}
+  height: 95vh;
+  border-radius: 50%;}
   50% {left: -16%;
-  height: 95vh;}
+  height: 95vh;
+  border-radius: 50%;}
   100% {left: 8%;
-  height: 160vh;}
+  height: 160vh;
+  border-radius: 0%;}
 }
 
 
