@@ -32,7 +32,9 @@ a:hover {
   height: 6vh;
   animation: sciao 1s linear;
   animation-iteration-count: 1; 
-  animation-delay: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
   z-index: 1;
 }
 
@@ -45,10 +47,10 @@ a:hover {
 @keyframes scivola {
   0% {left: -40%;
   height: 95vh;
-  border-radius: 50%;}
+  border-radius: 75%;}
   50% {left: -16%;
   height: 95vh;
-  border-radius: 50%;}
+  border-radius: 75%;}
   100% {left: 8%;
   height: 160vh;
   border-radius: 0%;}
