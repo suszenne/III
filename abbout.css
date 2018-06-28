@@ -25,8 +25,12 @@ a:hover {
 }
 
 @keyframes scivola {
-  0% {left: -40%;}
-  100% {left: 8%;}
+  0% {left: -40%;
+  height: 100vh;}
+  50% {left: -16%;
+  height: 100vh;}
+  100% {left: 8%;
+  height: 160vh;}
 }
 
 
