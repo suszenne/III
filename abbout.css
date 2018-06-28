@@ -1,11 +1,11 @@
 a {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -72,9 +72,9 @@ p {
 }
 
 .ffoto {
-  height: 150%;
+  height: 60%;
   position: absolute;
-  right: 0vh;
+  left: 15vh;
   z-index: -1;
   animation: compare 2s linear;
   animation-fill-mode: forwards;
@@ -110,7 +110,7 @@ p {
 #giu {
   height: 80vh;
   top: 50vh;
-  left: 1vh;
+  left: 132vh;
   animation: fra 20s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
