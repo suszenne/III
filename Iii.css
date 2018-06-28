@@ -105,8 +105,8 @@ top: 20vh;
 
 
 .bill {
-  width: 50px;
-  height: 70px;
+  width: 8vh;
+  height: 11vh;
 }
 
 .bill:hover {
@@ -162,15 +162,17 @@ top: 20vh;
 
 a {
   color: black;
+  text-decoration : none;
 }
 
 a:visited {
   color: #8b0000;
+  text-decoration : none;
 }
 
 a:hover {
-  color: #2e8b57;
-  text-decoration:overline;
+  color: #4169e1;
+  text-decoration: overline;
 }
 
 h1 {
@@ -273,10 +275,10 @@ animation-fill-mode: forwards;
 
 #masch {
   position: absolute;
-  top: 75%;
-  left: 36%;
-  width: 20%;
-  height: 30%;
+  top: 60vh;
+  left: 77vh;
+  width: 23vh;
+  height: 30vh;
   background-color: white;
   animation: whit 5s linear;
   animation-iteration-count: 1;
@@ -351,7 +353,7 @@ background-color: #6b8e23;
   animation-fill-mode: forwards;
   z-index: 1;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 3vh;
+  font-size: 3.2vh;
 }
 
 .testadx {
