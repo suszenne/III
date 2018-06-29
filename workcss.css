@@ -58,6 +58,8 @@ h2 {
 
 .foto:hover {
   position: absolute;
+  top: 10vh;
+  left: 50vh;
   transform: translate{-50%, -50%};
   height: 80vh;
   animation: none;
