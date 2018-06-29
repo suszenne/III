@@ -4,18 +4,18 @@ body {
 
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5f9ea0;
-  text-decoration: underline overline;
+  color: white;
+  text-decoration: none;
 }
 
 h1 {
@@ -290,9 +290,14 @@ animation-iteration-count: infinite;
     margin-top: 1vh;
     width: 30vh;
     height: 4vh;
-    border: 2px black solid;
+    border: opx black solid;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    background-color: black;
     font-size: 3vh;
     font-weight:bold;
     padding:0px;
   }
+
+#back:hover {
+  background-color: #4682b4;
+}
