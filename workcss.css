@@ -191,7 +191,8 @@ animation-iteration-count: infinite;
 }
 
 #rosso {
-  background-color: #f0fff0;
+  background-color: #8b0000;
+  opacity: 0.5;
   top: 5%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -199,7 +200,7 @@ animation-iteration-count: infinite;
 }
 
 #rosso2 {
-  background-color: #e0ffff;
+  background-color: #ffdab9;
   top: 5%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -207,7 +208,7 @@ animation-iteration-count: infinite;
 }
 
 #blu {
-  background-color: #f0fff0;
+  background-color: #ffdab9;
   top: 5%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -215,7 +216,7 @@ animation-iteration-count: infinite;
 }
 
 #bluscuro {
-  background-color: #e0ffff;
+  background-color: #ffdab9;
   top: 22%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -231,7 +232,8 @@ animation-iteration-count: infinite;
 }
 
 #blu4 {
-  background-color: #e6e6fa;
+  background-color: #8b0000;
+  opacity: 0.5;
   top: 16%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -239,7 +241,7 @@ animation-iteration-count: infinite;
 }
 
 #blu5 {
-  background-color:#e6e6fa;
+  background-color:#ffdab9;
   top: 22%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -247,7 +249,7 @@ animation-iteration-count: infinite;
 }
 
 #blu6 {
-  background-color: 	#f0f8ff;
+  background-color: #f5deb3;
   top: 18%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -255,7 +257,7 @@ animation-iteration-count: infinite;
 }
 
 #blu7 {
-  background-color:	#e6e6fa;
+  background-color:	#ffdab9;
   top: 22%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -263,7 +265,7 @@ animation-iteration-count: infinite;
 }
 
 #blu8 {
-  background-color: #e6e6fa;
+  background-color: #ffdab9;
   top: 16%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -272,7 +274,7 @@ animation-iteration-count: infinite;
 
 
 #blu9 {
-  background-color:	#d3d3d3;
+  background-color:	#f5deb3;
   top: 10%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
