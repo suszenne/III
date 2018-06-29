@@ -22,26 +22,12 @@ h1 {
   font-size: 12vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   position: absolute;
-  top: 0vh;
+  top: -8vh;
   left: 90vh;
 }
 
 h1:hover {
   color: #778899;
-}
-
-h2 {
-  position: absolute;
-  top: 20vh;
-  left: 85vh;
-  z-index: 1;
-  font-size: 3.5vh;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: bold;
-  animation: scr 4s linear;
-  animation-iteration-count: 3;
-  animation-fill-mode:forwards;
-  animation-delay: 0s;
 }
 
 @keyframes scr {
@@ -52,7 +38,7 @@ h2 {
 }
 
 .foto {
-  height: 280px;
+  height: 230px;
   z-index: 0;
 }
 
@@ -65,7 +51,7 @@ h2 {
 }
 
 .fuete {
-  height: 260px;
+  height: 200px;
   z-index: 0;
 }
 
@@ -85,39 +71,39 @@ p {
 #container {
   position: absolute;
   width: 300vh;
-  top: 22vh;
+  top: 17vh;
   left: 0vh;
 margin: 0vh;
-animation: scorri 30s linear;
+animation: scorri 7s linear;
 animation-iteration-count: infinite;
 }
 
 @keyframes scorri {
   0% {position: absolute;
-  left: 0vh;}
+  left: -2vh;}
   50% {position: absolute;
-  left: -70vh;}
+  left: -25vh;}
   100% {position: absolute;
-  left: 0vh;
+  left: -2vh;
 }
 }
 
 #cesta {
   position: absolute;
   width: 400vh;
-  top: 69vh;
+  top: 55vh;
   left: 0vh;
-animation: scorre 30s linear;
+animation: scorre 6s linear;
 animation-iteration-count: infinite;
 }
 
 @keyframes scorre {
   0% {position: absolute;
-  left: -90vh;}
-  50% {position: absolute;
   left: -2vh;}
+  50% {position: absolute;
+  left: -22vh;}
   100% {position: absolute;
-  left: -90vh;
+  left: -2vh;
 }
 }
 
