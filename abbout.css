@@ -30,7 +30,7 @@ a:hover {
   background-color: white;
   width: 250vh;
   height: 6vh;
-  animation: sciao 1s linear;
+  animation: sciao 0.5s linear;
   animation-iteration-count: 1; 
   animation-delay: 2s;
   animation-fill-mode: forwards;
