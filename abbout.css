@@ -1,16 +1,16 @@
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #db7093;
-  text-decoration: underline overline;
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -201,15 +201,21 @@ p {
 }
 
 #back {
+  background-color: black;
   position: absolute;
   top: 4vh;
   left: 20vh;
   margin-top: 1vh;
   width: 30vh;
   height: 4vh;
-  border: 2px black solid;
+  border: 0px black solid;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 3vh;
   font-weight:bold;
   z-index: 2;
 }
+
+#back:hover {
+  background-color: #fff0f5;
+}
+  
