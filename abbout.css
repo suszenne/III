@@ -26,9 +26,9 @@ a:hover {
 #mask {
   position: absolute;
   top: 0vh;
-  left: 36vh;
+  left: 0vh;
   background-color: white;
-  width: 180vh;
+  width: 250vh;
   height: 6vh;
   animation: sciao 1s linear;
   animation-iteration-count: 1; 
@@ -211,4 +211,5 @@ p {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 3vh;
   font-weight:bold;
+  z-index: 2;
 }
