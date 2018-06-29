@@ -70,7 +70,7 @@ p {
   top: 22vh;
   left: 0vh;
 margin: 0vh;
-animation: scorri 9s linear;
+animation: scorri 30s linear;
 animation-iteration-count: infinite;
 }
 
@@ -89,7 +89,7 @@ animation-iteration-count: infinite;
   width: 400vh;
   top: 69vh;
   left: 0vh;
-animation: scorre 9s linear;
+animation: scorre 30s linear;
 animation-iteration-count: infinite;
 }
 
