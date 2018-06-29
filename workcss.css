@@ -55,6 +55,13 @@ h2 {
   height: 280px;
 }
 
+.foto:hover {
+  position: absolute;
+  transform: translate{-50%, -50%};
+  height: 80vh;
+  animation: none;
+}
+
 .fuete {
   height: 260px;
 }
