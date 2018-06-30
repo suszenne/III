@@ -28,7 +28,6 @@ h1 {
 
 h1:hover {
   color: #8b0000;
-  opacity: 0.5;
 }
 
 @keyframes scr {
@@ -49,6 +48,7 @@ h1:hover {
   height: 80vh;
   animation: none;
   z-index: 2;
+  top: 1vh;
 }
 
 .fuete {
@@ -309,5 +309,4 @@ animation-iteration-count: infinite;
 
 #back:hover {
   background-color: #8b0000;
-  opacity: 0.5;
 }
