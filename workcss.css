@@ -27,7 +27,8 @@ h1 {
 }
 
 h1:hover {
-  color: #778899;
+  color: #8b0000;
+  opacity: 0.5;
 }
 
 @keyframes scr {
@@ -306,5 +307,6 @@ animation-iteration-count: infinite;
   }
 
 #back:hover {
-  background-color: #4682b4;
+  background-color: #8b0000;
+  opacity: 0.5;
 }
