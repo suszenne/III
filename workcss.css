@@ -2,6 +2,14 @@ body {
   background-color: white;
 }
 
+#partebassa {
+  position: absolute;
+    left: 0vh;
+    bottom: -150vh;
+    width: 100vh;
+    height: 150vh;
+}
+  
 
 a {
   color: white;
@@ -22,12 +30,26 @@ h1 {
   font-size: 12vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   position: absolute;
-  top: -8vh;
-  left: 90vh;
+  top: 4vh;
+  left: 100vh;
+  transform: translate(-50%,-50%);
 }
 
 h1:hover {
   color: #8b0000;
+}
+
+h2 {
+  font-size: 5vh;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  position: absolute;
+  top: 25vh;
+    left: 100vh;
+    transform: translate(-50%,-50%);
+  color: black;
+  animation: dark 3s linear;
+  animation-iteration-count: infinite;
+
 }
 
 @keyframes scr {
@@ -38,7 +60,7 @@ h1:hover {
 }
 
 .foto {
-  height: 230px;
+  height: 270px;
   z-index: 0;
 }
 
@@ -52,7 +74,7 @@ h1:hover {
 }
 
 .fuete {
-  height: 200px;
+  height: 250px;
   z-index: 0;
 }
 
@@ -84,7 +106,7 @@ animation-iteration-count: infinite;
   0% {position: absolute;
   left: -2vh;}
   50% {position: absolute;
-  left: -25vh;}
+  left: -13vh;}
   100% {position: absolute;
   left: -2vh;
 }
