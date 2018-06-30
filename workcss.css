@@ -226,7 +226,7 @@ animation-iteration-count: infinite;
 }
 
 #blu3 {
-  background-color: #f0f8ff;
+  background-color: #ffefd5;
   top: 10%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -267,7 +267,8 @@ animation-iteration-count: infinite;
 }
 
 #blu8 {
-  background-color: #ffdab9;
+  background-color: #8b0000;
+  opacity: 0.3;
   top: 16%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
