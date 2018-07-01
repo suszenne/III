@@ -20,7 +20,7 @@ a:hover {
  transform: translate(-50%,-50%);
     position: absolute;
     top: 50vh;
-    left: 100vh;
+    left: 50%;
     width: 100vh;
     height: 100vh;
     z-index: 0;
