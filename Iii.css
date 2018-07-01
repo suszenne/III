@@ -196,7 +196,7 @@ h2 {
 
 h3 {
   position:relative;
-  left: 60vh;
+  left: 50%;
   font-size: 10vh;
   font-family: 'Cabin', sans-serif;
   font-weight: bold;
@@ -205,12 +205,13 @@ h3 {
 }
 h4 {
   position: relative;
-  left: 0vh;
+  left: 48%;
   font-size: 5vh;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: lighter;
   margin: 6vh;
   margin-bottom: 10vh;
+  transform:translate(-50%,-50%);
 
 }
 
@@ -272,8 +273,7 @@ animation-fill-mode: forwards;
   font-family: 'Cabin', sans-serif;
   font-weight: bold;
   animation: unt 5s linear;
-  animation-iteration-count: 1;
-  animation-fill-mode:forwards;
+  animation-iteration-count: 3;
   animation-delay: 7s;
 
 }
@@ -452,11 +452,7 @@ z-index: -1;
 @keyframes unt {
   0% {opacity: 0;
   }
-  25% {opacity: 100;
-  }
-  50% {opacity: 0;
-  }
-  85% {opacity: 100;
+  50% {opacity: 1;
   }
   100% {opacity: 0;
   }
