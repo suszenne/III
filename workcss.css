@@ -52,6 +52,14 @@ h2 {
 
 }
 
+@keyframes dark {
+  0% {opacity: 0;}
+ 10% {opacity: 1;}
+  50% {opacity: 1;}
+  80% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
 @keyframes scr {
   0% {opacity:100;}
 25% {opacity:0;}
