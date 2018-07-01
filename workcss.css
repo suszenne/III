@@ -11,7 +11,7 @@ body {
 }
 
 #partealta:hover {
- animation: vaai 15s linear;
+ animation: vaai 25s linear;
   animation-iteration-count: infinite;
   
 }
@@ -31,7 +31,7 @@ body {
 }
 
 #partealta2:hover {
-  animation: viaa 15s linear;
+  animation: viaa 25s linear;
   animation-iteration-count: infinite;
   
 }
@@ -50,7 +50,7 @@ body {
 #partebassa {
   position: absolute;
     left: 0vh;
-    bottom: -150vh;
+    bottom: -220vh;
     width: 100vh;
     height: 150vh;
 }
@@ -66,29 +66,6 @@ body {
     height: 55vh;
 }
 
-
-#slaveshow {
-border: 0px solid #000;
-overflow: hidden;
-margin: 50px auto 10px;
-position: relative;
-  top: 80vh;
-left: 60vh;
-width: 4px;
-height: 3px;
-}
-
-
-#slowshow {
-border: 0px solid #000;
-overflow: hidden;
-margin: 50px auto 10px;
-position: relative;
-  top: 80vh;
-left: 120vh;
-width: 4px;
-height: 3px;
-}
 
 
 a {
@@ -203,7 +180,7 @@ animation-iteration-count: infinite;
 #cesta {
   position: absolute;
   width: 400vh;
-  top: 55vh;
+  top: 60vh;
   left: 0vh;
 animation: scorre 6s linear;
 animation-iteration-count: infinite;
