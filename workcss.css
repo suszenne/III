@@ -11,6 +11,12 @@ body {
   transform: translate(-50%,-50%);
 }
 
+#speciale {
+  padding: 2vh;
+    margin: 2vh;
+    height: 58vh;
+}
+
 #partebassa {
   position: absolute;
     left: 0vh;
