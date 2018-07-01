@@ -33,6 +33,8 @@ body {
   top: 8vh;
     right: 50vh;
     position: absolute;
+  height: 20vh;
+  z-index: 1;
 }
 
 #sinistra {
@@ -45,7 +47,8 @@ body {
   top: 8vh;
   left: 47vh;
   position: absolute;
-  transform: rotate(-10deg);
+   height: 20vh;
+  z-index: 1;
 }
 
 .schizzi {
