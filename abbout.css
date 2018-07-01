@@ -26,25 +26,7 @@ a:hover {
     z-index: 0;
 }
 
-#mask {
-  position: absolute;
-  top: 0vh;
-  left: 0vh;
-  background-color: white;
-  width: 250vh;
-  height: 6vh;
-  animation: sciao 0.5s linear;
-  animation-iteration-count: 1; 
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-  z-index: 1;
-}
 
-@keyframes sciao {
-  from { top: 0vh;}
-  to {top: -20vh; }
-}
-  
   
 @keyframes scivola {
   0% {left: -40%;
@@ -74,7 +56,7 @@ a:hover {
 }
 
 p {
-   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: 'Barlow Semi Condensed', sans-serif;
   font-weight: bolder;
    z-index: 1;
    position: relative;
@@ -84,7 +66,7 @@ p {
 }
 
 #ab {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-weight: 800;
   font-size: 10vh;
   left: 55vh; 
