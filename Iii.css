@@ -79,7 +79,7 @@ body {
   height: 9vh;
   border-radius: 50%;
   position: absolute;
-  left: 155vh;
+  right:20%;
   top: 22vh;
 }
 
@@ -98,7 +98,7 @@ top: 20vh;
   border-radius: 50%;
   background-color: #ff8c00;
   position: absolute;
-  left: 168vh;
+  right:18%;
   top: 30vh;
   z-index: 2;
 }
@@ -137,7 +137,7 @@ top: 20vh;
   height: 10vh;
   border-radius: 50%;
   position: absolute;
-  left: 145vh;
+  right: 24%;
   top: 30vh;
 }
 
