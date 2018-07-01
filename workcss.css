@@ -18,7 +18,51 @@ body {
     width: 100vh;
     height: 150vh;
 }
-  
+ 
+#slideshow {
+border: 0px solid #000;
+overflow: hidden;
+margin: 50px auto 10px;
+position: relative;
+top: 80vh;
+left: 20vh;
+width: 400px;
+height: 300px;
+}
+#slideshow img {
+width: 400px;
+height: 300px;
+}
+
+#slaveshow {
+border: 0px solid #000;
+overflow: hidden;
+margin: 50px auto 10px;
+position: relative;
+  top: 80vh;
+left: 60vh;
+width: 400px;
+height: 300px;
+}
+#slaveshow img {
+width: 400px;
+height: 300px;
+}
+
+#slowshow {
+border: 0px solid #000;
+overflow: hidden;
+margin: 50px auto 10px;
+position: relative;
+  top: 80vh;
+left: 120vh;
+width: 400px;
+height: 300px;
+}
+#slowshow img {
+width: 400px;
+height: 300px;
+}
 
 a {
   color: white;
