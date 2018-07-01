@@ -323,7 +323,7 @@ background-color: #6b8e23;
 
 #partesotto {
     position: absolute;
-    left: 100vh;
+    left: 50%;
   top: 250vh;
   transform: translate(-50%, -50%);
   }
