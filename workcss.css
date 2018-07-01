@@ -4,10 +4,10 @@ body {
 
 #partealta {
   position: absolute;
-    left: 0vh;
-    top: 50vh;
-    width: 100vh;
-    height: 150vh;
+    left: 100vh;
+    top: 68vh;
+    width: 180vh;
+    height: 70vh;
   transform: translate(-50%,-50%);
 }
 
