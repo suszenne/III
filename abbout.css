@@ -13,7 +13,9 @@ a:hover {
   text-decoration: none;
 }
 
-
+#opa {
+  opacity: 0.5;
+}
 #contenitore {
   position:absolute;
   top: 0vh;
