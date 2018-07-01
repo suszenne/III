@@ -89,9 +89,9 @@ body {
 }
 
 @keyframes viaa {
-  0% {left: -230vh;}
-  50% {left: 2vh}
-  100% {left: -230vh;}
+  0% {right: -5%;}
+  50% {right: -90%;}
+  100% {right: -5%;}
 }
 
 #speciale {
