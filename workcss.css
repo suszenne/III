@@ -17,21 +17,24 @@ body {
 }
 
 .matita {
-  height: 5vh;
+  height: 14vh;
 }
 
 #destra {
-  top: 5vh;
-  right: 20vh;
+  top: 8vh;
+    right: 50vh;
+    position: absolute;
 }
 
 .macchinafoto {
-  height: 5vh;
+  height: 14vh;
 }
 
 #sinistra {
-  top: 5vh;
-  left: 30vh;
+  top: 8vh;
+  left: 47vh;
+  position: absolute;
+  transform: rotate(-10deg);
 }
 
 
