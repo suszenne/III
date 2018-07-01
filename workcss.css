@@ -120,7 +120,7 @@ h2 {
 }
 
 h3 {
-  background-color: #8b0000;
+
  font-size: 3.5vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   
@@ -343,7 +343,7 @@ animation-iteration-count: infinite;
 }
 
 #bluscuro {
-  background-color: #ffdab9;
+  background-color: #8b0000;
   top: 22%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
@@ -351,7 +351,7 @@ animation-iteration-count: infinite;
 }
 
 #blu3 {
-  background-color: #ffefd5;
+  background-color: #8b0000;
   top: 10%;
   animation: corri 3s linear;
   animation-iteration-count: infinite;
