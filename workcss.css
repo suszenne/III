@@ -2,6 +2,15 @@ body {
   background-color: white;
 }
 
+#partealta {
+  position: absolute;
+    left: 0vh;
+    top: 50vh;
+    width: 100vh;
+    height: 150vh;
+  transform: translate(-50%,-50%);
+}
+
 #partebassa {
   position: absolute;
     left: 0vh;
