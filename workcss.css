@@ -6,16 +6,40 @@ body {
   position: absolute;
     left: 2vh;
     top: 38vh;
-    width: 250vh;
+    width: 440vh;
     height: 60vh;
+}
+
+#partealta:hover {
+ animation: vaai 15s linear;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes vaai {
+  0% {left: 2vh;}
+  50% {left: -20vh}
+  100% {left: 2vh;}
 }
 
 #partealta2 {
   position: absolute;
-    left: 2vh;
-    top: 68vh;
-    width: 250vh;
+    left: -20vh;
+    top: 98vh;
+    width: 440vh;
     height: 60vh;
+}
+
+#partealta2:hover {
+  animation: viaa 15s linear;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes viaa {
+  0% {left: -20vh;}
+  50% {left: 2vh}
+  100% {left: -20vh;}
 }
 
 #speciale {
