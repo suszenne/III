@@ -6,8 +6,8 @@ body {
   position: absolute;
     left: 100vh;
     top: 68vh;
-    width: 180vh;
-    height: 70vh;
+     width: 180vh;
+    height: 60vh;
   transform: translate(-50%,-50%);
 }
 
@@ -20,14 +20,41 @@ body {
 }
  
 #slideshow {
-border: 0px solid #000;
-overflow: hidden;
-margin: 50px auto 10px;
 position: relative;
-top: 80vh;
-left: 20vh;
-width: 4px;
-height: 3px;
+top: 1vh;
+left: 1vh;
+}
+
+ 
+#slideshow1 {
+position: relative;
+top: 1vh;
+left: 40vh;
+}
+
+ 
+#slideshow2 {
+position: relative;
+top: 1vh;
+left: 80vh;
+}
+
+ 
+#slideshow3 {
+position: relative;
+top: 1vh;
+left: 120vh;
+}
+
+.fiore {
+  height: 56vh;
+    width: 45vh;
+  border: 0px solid #000;
+overflow: hidden;
+}
+
+.dettagli {
+    height: 55vh;
 }
 
 
