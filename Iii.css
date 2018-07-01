@@ -178,7 +178,7 @@ a:hover {
 h1 {
 font-size: 8vh;
 position: absolute;
-font-family: "Raleway", sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: bolder;
 top: 41vh;
 left: 100vh;
@@ -187,7 +187,7 @@ left: 100vh;
 
 h2 {
   font-size: 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   position: absolute;
   top: 38vh;
@@ -217,7 +217,7 @@ h4 {
 h6 {
   position: relative;
   font-size: 5vh;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   margin-top: 53vh;
   transform: translate(-50%,-50%);
