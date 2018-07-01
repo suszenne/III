@@ -4,17 +4,23 @@ body {
 
 #partealta {
   position: absolute;
-    left: 100vh;
-    top: 68vh;
-     width: 180vh;
+    left: 2vh;
+    top: 38vh;
+    width: 200vh;
     height: 60vh;
-  transform: translate(-50%,-50%);
+}
+
+#partealta2 {
+  position: absolute;
+    left: 2vh;
+    top: 68vh;
+    width: 200vh;
+    height: 60vh;
 }
 
 #speciale {
-  padding: 2vh;
-    margin: 2vh;
-    height: 58vh;
+  padding: 0vh;
+    margin: 0vh;
 }
 
 #partebassa {
@@ -24,33 +30,7 @@ body {
     width: 100vh;
     height: 150vh;
 }
- 
-#slideshow {
-position: relative;
-top: 1vh;
-left: 1vh;
-}
 
- 
-#slideshow1 {
-position: relative;
-top: 1vh;
-left: 40vh;
-}
-
- 
-#slideshow2 {
-position: relative;
-top: 1vh;
-left: 80vh;
-}
-
- 
-#slideshow3 {
-position: relative;
-top: 1vh;
-left: 120vh;
-}
 
 .fiore {
   height: 56vh;
