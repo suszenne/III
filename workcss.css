@@ -18,13 +18,13 @@ body {
 
 @keyframes vaai {
   0% {left: 2vh;}
-  50% {left: -420vh}
+  50% {left: -390vh}
   100% {left: 2vh;}
 }
 
 #partealta2 {
   position: absolute;
-    left: -420vh;
+    left: -230vh;
     top: 98vh;
     width: 540vh;
     height: 60vh;
@@ -37,9 +37,9 @@ body {
 }
 
 @keyframes viaa {
-  0% {left: -420vh;}
+  0% {left: -230vh;}
   50% {left: 2vh}
-  100% {left: -420vh;}
+  100% {left: -230vh;}
 }
 
 #speciale {
