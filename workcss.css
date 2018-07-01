@@ -29,6 +29,11 @@ body {
 .macchinafoto {
   height: 14vh;
 }
+#destra2 {
+  top: 8vh;
+    right: 50vh;
+    position: absolute;
+}
 
 #sinistra {
   top: 8vh;
@@ -36,7 +41,24 @@ body {
   position: absolute;
   transform: rotate(-10deg);
 }
+#sinistra2 {
+  top: 8vh;
+  left: 47vh;
+  position: absolute;
+  transform: rotate(-10deg);
+}
 
+.schizzi {
+  opacity: 0;
+}
+
+.star {
+  height: 15vh;
+}
+
+.scuro {
+  opacity: 1;
+}
 
 
 @keyframes vaai {
