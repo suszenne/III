@@ -16,6 +16,26 @@ body {
   
 }
 
+.matita {
+  height: 5vh;
+}
+
+#destra {
+  top: 5vh;
+  right: 20vh;
+}
+
+.macchinafoto {
+  height: 5vh;
+}
+
+#sinistra {
+  top: 5vh;
+  left: 30vh;
+}
+
+
+
 @keyframes vaai {
   0% {left: 2vh;}
   50% {left: -330vh}
