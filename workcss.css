@@ -103,7 +103,7 @@ body {
   position: absolute;
     left: 0vh;
     bottom: -220vh;
-    width: 100vh;
+    width: 100%;
     height: 150vh;
 }
 
@@ -188,6 +188,7 @@ h3 {
 
 #rain {
   top: 27vh;
+  rain: 50%;
 }
 
 #strisciolone {
@@ -248,7 +249,7 @@ p {
 
 #container {
   position: absolute;
-  width: 300vh;
+  width: 140%;
   top: 38vh;
   left: 0vh;
 margin: 0vh;
@@ -268,8 +269,8 @@ animation-iteration-count: infinite;
 
 #cesta {
   position: absolute;
-  width: 400vh;
-  top: 82vh;
+  width: 150%;
+  bottom: 19vh;
   left: 0vh;
 animation: scorre 6s linear;
 animation-iteration-count: infinite;
