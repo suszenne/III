@@ -104,14 +104,20 @@ h2 {
     left: 100vh;
     transform: translate(-50%,-50%);
   color: black;
-  animation: dark 3s linear;
-  animation-iteration-count: infinite;
-
 }
 
 .filo {
   color: #8b0000;
+   animation: dark 3s linear;
+  animation-iteration-count: infinite;
+
   }
+.filo:visited {
+ color: #8b0000;
+   animation: dark 3s linear;
+  animation-iteration-count: infinite;
+
+}
 
 h3 {
   background-color: #8b0000;
