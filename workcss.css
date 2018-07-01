@@ -27,13 +27,13 @@ body {
 }
 
 .macchinafoto {
-  height: 14vh;
+  height: 10vh;
 }
 #destra2 {
   top: 8vh;
     right: 50vh;
     position: absolute;
-  height: 20vh;
+  height: 27vh;
   z-index: 1;
 }
 
@@ -44,11 +44,11 @@ body {
   transform: rotate(-10deg);
 }
 #sinistra2 {
-  top: 8vh;
-  left: 47vh;
-  position: absolute;
-   height: 20vh;
-  z-index: 1;
+  top: 4vh;
+    left: 45vh;
+    position: absolute;
+    height: 30vh;
+    z-index: 1;
 }
 
 .schizzi {
@@ -59,7 +59,11 @@ body {
   height: 15vh;
 }
 
-.scuro {
+#destra2:hover {
+  opacity: 1;
+}
+
+#sinistra2:hover {
   opacity: 1;
 }
 
