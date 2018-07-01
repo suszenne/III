@@ -29,10 +29,7 @@ left: 20vh;
 width: 4px;
 height: 3px;
 }
-#slideshow img {
-width: 400px;
-height: 300px;
-}
+
 
 #slaveshow {
 border: 0px solid #000;
@@ -44,10 +41,7 @@ left: 60vh;
 width: 4px;
 height: 3px;
 }
-#slaveshow img {
-width: 400px;
-height: 300px;
-}
+
 
 #slowshow {
 border: 0px solid #000;
@@ -59,10 +53,7 @@ left: 120vh;
 width: 4px;
 height: 3px;
 }
-#slowshow img {
-width: 400px;
-height: 300px;
-}
+
 
 a {
   color: white;
