@@ -109,15 +109,28 @@ h2 {
 
 }
 
+h3 {
+  color: black;
+ font-size: 2vh;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  
+}
+#sottotitolo {
+  position: absolute;
+  left: 100vh;
+  top: 7vh;
+}
+  
+
 #rain {
-  top: 8vh;
+  top: 27vh;
 }
 
 #strisciolone {
   position:relative;
-  top: 0vh;
+  top: -3vh;
   width: 310vh;
-  height: 50vh;
+  height: 85vh;
   left: 0vh; 
 }
   
@@ -173,7 +186,7 @@ p {
 #container {
   position: absolute;
   width: 300vh;
-  top: 17vh;
+  top: 38vh;
   left: 0vh;
 margin: 0vh;
 animation: scorri 7s linear;
@@ -193,7 +206,7 @@ animation-iteration-count: infinite;
 #cesta {
   position: absolute;
   width: 400vh;
-  top: 60vh;
+  top: 82vh;
   left: 0vh;
 animation: scorre 6s linear;
 animation-iteration-count: infinite;
