@@ -168,7 +168,7 @@ p {
   position: absolute;
   height: 60vh;
   top: 1vh;
-  right:40vh;
+  right:20%;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
