@@ -230,7 +230,7 @@ h6 {
   position: absolute;
   width: 65vh;
 top: 56vh;
-left: 100vh;
+left: 50%;
 transform: translate(-50%, -50%);
 }
 
@@ -506,8 +506,8 @@ z-index: -1;
 @keyframes spostamento {
   0% {transform: translate(-50%, -50%);
   top: 32vh;
-left: 300vh;}
+left: 120%;}
 100% {transform: translate(-50%, -50%);
 top: 32vh;
-left: 100vh;}
+left: 50%;}
 }
