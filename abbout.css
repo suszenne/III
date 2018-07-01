@@ -32,7 +32,7 @@ a:hover {
   0% {
     position: absolute;
     left: -40%;
-  height: 95vh;
+  height: 160vh;
   border-radius: 16%;
   opacity: 0.5;
   transform: translate(-50%,-50%);
@@ -40,7 +40,7 @@ a:hover {
   50% {
     position: absolute;
     left: 10%;
-  height: 95vh;
+  height: 160vh;
   border-radius: 16%;
   opacity: 1;
   transform: translate(-50%,-50%);
