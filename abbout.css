@@ -104,12 +104,12 @@ p {
 .sin {
   height: 43vh;
   position: absolute;
-  left: 28vh;
   z-index: -1;
 }
 
 #su {
   top: 7vh;
+  left: 28vh;
   animation: china 10s linear;
   animation-iteration-count: infinite;
   animation-timing-function:ease-in-out;
@@ -126,7 +126,7 @@ p {
 #giu {
   height: 80vh;
   top: 50vh;
-  left: 132vh;
+  right: 10vh;
   animation: fra 20s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
@@ -153,17 +153,7 @@ p {
   z-index: -1;
 }
 
-#cicci {
-  position: absolute;
-  height: 72vh;
-  top: -5vh;
-  left: 148vh;
-  animation: lirica 15s linear;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0s;
-  z-index: -1;
-}
+
 
 @keyframes lirica {
 0% {opacity: 0;}
@@ -178,7 +168,7 @@ p {
   position: absolute;
   height: 60vh;
   top: 1vh;
-  left: 140vh;
+  right:40vh;
   animation: lirica 15s linear;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
