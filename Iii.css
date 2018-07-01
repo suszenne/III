@@ -13,7 +13,7 @@ body {
   height: 10vh;
   border-radius: 50%;
   position: absolute;
-  left: 55vh;
+  left: 19%;
   top: 88vh;
 }
 
@@ -27,7 +27,7 @@ body {
   border-radius: 50%;
   background-color: #ff8c00;
   position: absolute;
-  left: 43vh;
+  left: 15%;
   top: 95vh;
   z-index: 2;
 }
@@ -57,7 +57,7 @@ body {
   height: 10vh;
   border-radius: 50%;
   position: absolute;
-  left: 30vh;
+  left: 9%;
   top: 88vh;
 }
 
@@ -352,7 +352,7 @@ background-color: #6b8e23;
 }
 
 .testadx {
-   height: 135vh;
+   height: 125vh;
   position: absolute;
   top: 0vh;
   right: 0vh;
@@ -364,7 +364,7 @@ background-color: #6b8e23;
 
 
 .testasx {
-   height: 135vh;
+   height: 125vh;
   position: absolute;
   top: 0vh;
   left: -12vh;
