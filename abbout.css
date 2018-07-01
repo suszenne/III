@@ -65,7 +65,7 @@ a:hover {
   position: absolute;
   width: 80vh;
   height: 100vh;
-  background-color: #fff0f5;
+  background-color: none;
   z-index: -1;
   border-radius: 16%;
   animation: scivola 1s linear;
@@ -90,7 +90,7 @@ p {
 }
 
 #ab:hover {
-  color: pink;
+  color: #8b0000;
 }
 
 
@@ -218,6 +218,6 @@ p {
 }
 
 #back:hover {
-  background-color: #ffc0cb;
+  background-color: #8b0000;
 }
   
