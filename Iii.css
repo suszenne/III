@@ -33,13 +33,13 @@ body {
 }
 
 .perr {
-  width: 70px;
-  height: 70px;
+  width: 10vh;
+  height: 10vh;
 }
 
 .piu {
-  width: 30px;
-  height: 30px;
+  width: 5vh;
+  height: 5vh;
 }
 
 #pera {
@@ -110,13 +110,13 @@ top: 20vh;
 }
 
 .bill:hover {
-  width: 60px;
-  height: 80px;
+  width: 12vh;
+  height: 15vh;
   }
 
 .piu {
-  width: 30px;
-  height: 30px;
+  width: 5vh;
+  height: 5vh;
 }
 
 
@@ -181,7 +181,8 @@ position: absolute;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-weight: bolder;
 top: 41vh;
-left: 107vh;
+left: 100vh;
+  transform:translate(-50%,-50%);
 }
 
 h2 {
@@ -195,11 +196,12 @@ h2 {
 
 h3 {
   position:relative;
-  left: 56vh;
+  left: 60vh;
   font-size: 10vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: bolder;
-  margin: -4vh;
+  margin: -3vh;
+  transform: translate(-50%,-50%);
 }
 h4 {
   position: relative;
@@ -218,6 +220,8 @@ h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bolder;
   margin-top: 53vh;
+  transform: translate(-50%,-50%);
+    left: 50%;
 
 }
 
@@ -225,7 +229,7 @@ h6 {
   position: absolute;
   width: 65vh;
 top: 56vh;
-left: 107vh;
+left: 100vh;
 transform: translate(-50%, -50%);
 }
 
@@ -243,15 +247,16 @@ p {
   font-size: 10vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 800;
+  transform: translate(-50%,-50%);
 }
 
 #quadratino {
 
   background-color: black;
-  height: 7%;
-width: 5%;
+  height: 1.3vh;
+width: 1.3vh;
 position: absolute;
-  top: 60%;
+  top: 18vh;
 display: inline;
 animation: rotola 2.5s linear;
 animation-iteration-count: 1;
@@ -329,7 +334,7 @@ background-color: #6b8e23;
 
 #partesotto {
     position: absolute;
-    left: 108vh;
+    left: 100vh;
   top: 250vh;
   transform: translate(-50%, -50%);
   }
@@ -357,7 +362,7 @@ background-color: #6b8e23;
 }
 
 .testadx {
-   height: 130vh;
+   height: 135vh;
   position: absolute;
   top: 0vh;
   right: 0vh;
@@ -369,10 +374,10 @@ background-color: #6b8e23;
 
 
 .testasx {
-   height: 130vh;
+   height: 135vh;
   position: absolute;
   top: 0vh;
-  left: 0vh;
+  left: -12vh;
   animation: giu 5s linear;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
