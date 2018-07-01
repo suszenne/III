@@ -109,6 +109,19 @@ h2 {
 
 }
 
+#rain {
+  top: 8vh;
+}
+
+#strisciolone {
+  position:relative;
+  top: 0vh;
+  width: 310vh;
+  height: 50vh;
+  left: 0vh; 
+}
+  
+
 @keyframes dark {
   0% {opacity: 0;}
  10% {opacity: 1;}
