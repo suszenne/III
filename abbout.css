@@ -78,11 +78,12 @@ p {
 
 
 #lu {
-  font-size: 3.8vh;
-  position: relative;
-  top: 27vh;
-  left: 35vh;
-  width: 70vh;
+     font-size: 3.3vh;
+    font-weight: lighter;
+    position: relative;
+    top: 27vh;
+    left: 35vh;
+    width: 70vh;
 }
 
 .ffoto {
