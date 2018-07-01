@@ -2,7 +2,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="workcss.css">
   <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Cabin" rel="stylesheet">
-  <script type="text/javascript" src="xfade2.js"></script>
+  <script src="jquery.min.js"></script>
 </head>
 
 <body>
@@ -14,8 +14,8 @@
   <img src="https://i.imgur.com/0PFkuYN.jpg" id="sinistra" class="macchinafoto">  
   
   
-<img src="https://i.imgur.com/YmAwU3Y.jpg" id="destra" class="schizzi stella">  
-  <img src="https://i.imgur.com/2wB2Tco.jpg" id="sinistra" class="schizzi star">  
+<img src="https://i.imgur.com/YmAwU3Y.jpg" id="destra2" class="schizzi stella">  
+  <img src="https://i.imgur.com/2wB2Tco.jpg" id="sinistra2" class="schizzi star">  
   
 <h1> WORKS </h1>
   <div id="sottotitolo"> <h3> <a href="#ph" class="filo"> PHOTOS -</a> <a href="#rain" class="filo">ILLUSTRATIONS </a> </h3> </div>
@@ -128,5 +128,31 @@
   </div>
   </div>
 
+<script>
+ 
+ function change() {
+   if ($("#destra").hasClass("matita")) {
+       $("#destra2").removeClass("schizzi");
+   $("#destra2").addClass("scuro");
+ } else if ($("#destra2").hasClass("scuro")) 
+{ $("#destra2").removeClass("scuro");
+ $("#destra2").addClass("schizzi"); }
+
+ $("#destra").click(change);
+   
+  
+  function switch() {
+   if ($("#sinistra").hasClass("matita")) {
+       $("#sinitra2").removeClass("schizzi");
+   $("#sinitra2").addClass("scuro");
+ } else if ($("#destra2").hasClass("scuro")) 
+{ $("#sinitra2").removeClass("scuro");
+ $("#sinitra2").addClass("schizzi"); }
+
+ $("#sinitra").click(switch);
+   
+  </script>
+  
 </body>
+  
 </html>
