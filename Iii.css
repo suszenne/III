@@ -179,7 +179,7 @@ h1 {
 font-size: 8vh;
 position: absolute;
 font-family: 'Barlow Semi Condensed', sans-serif;
-font-weight: bolder;
+font-weight: lighter;
 top: 41vh;
 left: 100vh;
   transform:translate(-50%,-50%);
@@ -188,7 +188,7 @@ left: 100vh;
 h2 {
   font-size: 30px;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-weight: bolder;
+  font-weight: lighter;
   position: absolute;
   top: 38vh;
   left: 50%;
@@ -199,7 +199,7 @@ h3 {
   left: 60vh;
   font-size: 10vh;
   font-family: 'Cabin', sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
   margin: -3vh;
   transform: translate(-50%,-50%);
 }
@@ -208,7 +208,7 @@ h4 {
   left: 0vh;
   font-size: 5vh;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-weight: bolder;
+  font-weight: lighter;
   margin: 6vh;
   margin-bottom: 10vh;
 
@@ -218,7 +218,7 @@ h6 {
   position: relative;
   font-size: 5vh;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-weight: bolder;
+  font-weight: lighter;
   margin-top: 53vh;
   transform: translate(-50%,-50%);
     left: 50%;
@@ -343,7 +343,7 @@ background-color: #6b8e23;
 .apparizione {
   transform: translate(-50%, -50%);
   font-family: 'Barlow Semi Condensed', sans-serif;
-  	font-weight: bolder;
+  	font-weight: lighter;
     animation: cambiocolore 3s infinite;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -359,6 +359,7 @@ background-color: #6b8e23;
   z-index: 1;
   font-family: 'Cabin', sans-serif;
   font-size: 3.2vh;
+  font-weight: bold;
 }
 
 .testadx {
