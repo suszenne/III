@@ -278,18 +278,6 @@ animation-fill-mode: forwards;
 
 }
 
-#masch {
-  position: absolute;
-  top: 60vh;
-  left: 77vh;
-  width: 23vh;
-  height: 30vh;
-  background-color: white;
-  animation: whit 5s linear;
-  animation-iteration-count: 1;
-  animation-fill-mode:forwards;
-z-index: 2;
-}
 h5 {
   font-size: 3vh;
   font-family: 'Cabin', sans-serif;
