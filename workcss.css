@@ -109,16 +109,22 @@ h2 {
 
 }
 
+.filo {
+  color: #8b0000;
+  }
+
 h3 {
-  color: black;
- font-size: 2vh;
+  background-color: #8b0000;
+ font-size: 3.5vh;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   
 }
 #sottotitolo {
   position: absolute;
-  left: 100vh;
-  top: 18vh;
+    left: 100vh;
+    top: 20vh;
+    z-index: 1;
+    transform: translate(-50%,-50%);
 }
   
 
