@@ -24,7 +24,7 @@ body {
 
 #partealta2 {
   position: absolute;
-    left: -20vh;
+    left: -420vh;
     top: 98vh;
     width: 440vh;
     height: 60vh;
@@ -37,9 +37,9 @@ body {
 }
 
 @keyframes viaa {
-  0% {left: -20vh;}
+  0% {left: -420vh;}
   50% {left: 2vh}
-  100% {left: -20vh;}
+  100% {left: -420vh;}
 }
 
 #speciale {
