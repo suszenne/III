@@ -22,7 +22,7 @@ body {
 
 #destra {
   top: 8vh;
-    right: 50vh;
+    right: 25%;
     position: absolute;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 #destra2 {
   top: 8vh;
-    right: 50vh;
+    right: 25%;
     position: absolute;
   height: 27vh;
   z-index: 1;
